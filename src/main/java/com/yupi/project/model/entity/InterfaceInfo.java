@@ -70,6 +70,14 @@ public class InterfaceInfo implements Serializable {
     private Date updateTime;
 
     /**
+     * 请求参数
+     * @ [
+     * {"name": "username", "type": "string"}
+     * ]
+     */
+    private String requestParams;
+
+    /**
      * 是否删除(0-未删, 1-已删)
      */
     @TableLogic
