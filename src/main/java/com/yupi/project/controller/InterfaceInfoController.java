@@ -28,8 +28,6 @@ import java.util.List;
 
 /**
  * 帖子接口
- *
- * @author yupi
  */
 @RestController
 @RequestMapping("/interfaceInfo")
@@ -284,7 +282,7 @@ public class InterfaceInfoController {
             throw new BusinessException(ErrorCode.NOT_FOUND_ERROR);
         }
         if (oldInterfaceInfo.getStatus() == InterfaceInfoStatusEnum.OFFLINE.getValue()) {
-            throw new BusinessException(ErrorCode.PARAMS_ERROR, "接口已关闭");
+            throw new BusinessException(ErrorCode.PARAMS_ERROR, "接口已关闭up");
         }
         User loginUser = userService.getLoginUser(request);
         String accessKey = loginUser.getAccessKey();
