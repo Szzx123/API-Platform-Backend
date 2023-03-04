@@ -2,12 +2,12 @@ package com.pck.project.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.pck.apicommon.model.entity.User;
 import com.pck.project.constant.UserConstant;
 import com.pck.project.mapper.UserMapper;
 import com.pck.project.service.UserService;
 import com.pck.project.common.ErrorCode;
 import com.pck.project.exception.BusinessException;
-import com.pck.project.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 用户服务实现类
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @Service
 @Slf4j

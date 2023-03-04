@@ -3,6 +3,7 @@ package com.pck.project.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.plugins.pagination.PageDTO;
+import com.pck.apicommon.model.entity.User;
 import com.pck.project.model.dto.user.*;
 import com.pck.project.service.UserService;
 import com.pck.project.common.BaseResponse;
@@ -10,9 +11,6 @@ import com.pck.project.common.DeleteRequest;
 import com.pck.project.common.ErrorCode;
 import com.pck.project.common.ResultUtils;
 import com.pck.project.exception.BusinessException;
-import com.pck.project.model.dto.*;
-import com.pck.project.model.dto.user.*;
-import com.pck.project.model.entity.User;
 import com.pck.project.model.vo.UserVO;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -26,7 +24,7 @@ import java.util.stream.Collectors;
 /**
  * 用户接口
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @RestController
 @RequestMapping("/user")

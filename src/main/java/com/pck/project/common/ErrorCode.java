@@ -3,7 +3,7 @@ package com.pck.project.common;
 /**
  * 错误码
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 public enum ErrorCode {
 

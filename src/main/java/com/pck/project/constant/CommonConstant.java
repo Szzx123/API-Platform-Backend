@@ -3,7 +3,7 @@ package com.pck.project.constant;
 /**
  * 通用常量
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 public interface CommonConstant {
 

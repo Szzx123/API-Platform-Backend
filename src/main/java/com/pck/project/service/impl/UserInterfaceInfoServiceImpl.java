@@ -2,11 +2,11 @@ package com.pck.project.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.pck.apicommon.model.entity.UserInterfaceInfo;
 import com.pck.project.exception.BusinessException;
 import com.pck.project.common.ErrorCode;
-import com.pck.project.model.entity.UserInterfaceInfo;
-import com.pck.project.service.UserInterfaceInfoService;
 import com.pck.project.mapper.UserInterfaceInfoMapper;
+import com.pck.project.service.UserInterfaceInfoService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 */
 @Service
 public class UserInterfaceInfoServiceImpl extends ServiceImpl<UserInterfaceInfoMapper, UserInterfaceInfo>
-    implements UserInterfaceInfoService{
+    implements UserInterfaceInfoService {
 
     @Override
     public void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean add) {

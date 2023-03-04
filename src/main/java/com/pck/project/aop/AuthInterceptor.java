@@ -1,11 +1,11 @@
 package com.pck.project.aop;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
+import com.pck.apicommon.model.entity.User;
 import com.pck.project.annotation.AuthCheck;
 import com.pck.project.exception.BusinessException;
 import com.pck.project.service.UserService;
 import com.pck.project.common.ErrorCode;
-import com.pck.project.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 /**
  * 权限校验 AOP
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @Aspect
 @Component

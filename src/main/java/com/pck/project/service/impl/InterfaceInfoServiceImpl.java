@@ -1,9 +1,9 @@
 package com.pck.project.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.pck.apicommon.model.entity.InterfaceInfo;
 import com.pck.project.exception.BusinessException;
 import com.pck.project.common.ErrorCode;
-import com.pck.project.model.entity.InterfaceInfo;
 import com.pck.project.service.InterfaceInfoService;
 import com.pck.project.mapper.InterfaceInfoMapper;
 import org.apache.commons.lang3.StringUtils;

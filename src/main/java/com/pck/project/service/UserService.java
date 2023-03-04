@@ -2,14 +2,14 @@ package com.pck.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pck.project.model.entity.User;
+import com.pck.apicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * 用户服务
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 public interface UserService extends IService<User> {
 

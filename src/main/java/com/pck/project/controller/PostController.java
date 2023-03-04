@@ -2,6 +2,7 @@ package com.pck.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.pck.apicommon.model.entity.User;
 import com.pck.project.annotation.AuthCheck;
 import com.pck.project.constant.CommonConstant;
 import com.pck.project.exception.BusinessException;
@@ -15,7 +16,6 @@ import com.pck.project.model.dto.post.PostAddRequest;
 import com.pck.project.model.dto.post.PostQueryRequest;
 import com.pck.project.model.dto.post.PostUpdateRequest;
 import com.pck.project.model.entity.Post;
-import com.pck.project.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * 帖子接口
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @RestController
 @RequestMapping("/post")

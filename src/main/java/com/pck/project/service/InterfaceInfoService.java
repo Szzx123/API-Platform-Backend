@@ -1,7 +1,7 @@
 package com.pck.project.service;
 
-import com.pck.project.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.pck.apicommon.model.entity.InterfaceInfo;
 
 /**
 * @author shizhuzexuan

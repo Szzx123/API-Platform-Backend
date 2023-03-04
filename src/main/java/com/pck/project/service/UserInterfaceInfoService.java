@@ -1,15 +1,9 @@
 package com.pck.project.service;
 
-import com.pck.project.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.pck.apicommon.model.entity.UserInterfaceInfo;
 
-/**
-* @author shizhuzexuan
-* @description 针对表【user_interface_info(用户调用接口关系)】的数据库操作Service
-* @createDate 2023-02-28 15:34:52
-*/
 public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
-
     void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean add);
 
     /**
@@ -19,5 +13,4 @@ public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
      * @return
      */
     boolean invokeCount(long interfaceInfoId, long userId);
-
 }

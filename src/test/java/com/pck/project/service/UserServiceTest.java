@@ -1,6 +1,6 @@
 package com.pck.project.service;
 
-import com.pck.project.model.entity.User;
+import com.pck.apicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 /**
  * 用户服务测试
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @SpringBootTest
 class UserServiceTest {

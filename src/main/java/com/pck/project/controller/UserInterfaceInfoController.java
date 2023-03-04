@@ -2,6 +2,8 @@ package com.pck.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.pck.apicommon.model.entity.User;
+import com.pck.apicommon.model.entity.UserInterfaceInfo;
 import com.pck.project.annotation.AuthCheck;
 import com.pck.project.common.BaseResponse;
 import com.pck.project.common.DeleteRequest;
@@ -15,9 +17,6 @@ import com.pck.project.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest
 import com.pck.project.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
 import com.pck.project.service.UserInterfaceInfoService;
 import com.pck.project.service.UserService;
-import com.pck.project.common.*;
-import com.pck.project.model.entity.User;
-import com.pck.project.model.entity.UserInterfaceInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -30,7 +29,7 @@ import java.util.List;
 /**
  * 接口管理
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @RestController
 @RequestMapping("/userInterfaceInfo")

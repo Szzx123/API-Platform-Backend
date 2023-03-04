@@ -5,7 +5,7 @@ import com.pck.project.common.ErrorCode;
 /**
  * 自定义异常类
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 public class BusinessException extends RuntimeException {
 

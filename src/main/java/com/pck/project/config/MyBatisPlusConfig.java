@@ -10,16 +10,14 @@ import org.springframework.context.annotation.Configuration;
 /**
  * MyBatis Plus 配置
  *
- * @author yupi
+ * @author shizhuzexuan
  */
 @Configuration
-@MapperScan("com.yupi.project.mapper")
+@MapperScan("com.pck.project.mapper")
 public class MyBatisPlusConfig {
 
     /**
      * 拦截器配置
-     *
-     * @return
      */
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor() {

@@ -1,10 +1,10 @@
-package com.pck.project.model.entity;
+package com.pck.apicommon.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-import lombok.Data;
 
 /**
  * 接口信息
@@ -33,6 +33,14 @@ public class InterfaceInfo implements Serializable {
      * 接口地址
      */
     private String url;
+
+    /**
+     * 请求参数
+     * [
+     *   {"name": "username", "type": "string"}
+     * ]
+     */
+    private String requestParams;
 
     /**
      * 请求头
@@ -68,14 +76,6 @@ public class InterfaceInfo implements Serializable {
      * 更新时间
      */
     private Date updateTime;
-
-    /**
-     * 请求参数
-     * @ [
-     * {"name": "username", "type": "string"}
-     * ]
-     */
-    private String requestParams;
 
     /**
      * 是否删除(0-未删, 1-已删)
