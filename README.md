@@ -36,6 +36,10 @@ Administrator: publish API, downline API, add API, and can count and analyze the
 
 Ordinary users: register and login, open API calling privileges, and use API.
 
+Backend: https://github.com/Szzx123/API-Platform-Backend
+
+Frontend: https://github.com/Szzx123/API-Platform-Frontend
+
 ### System Design
 
 ![1](./IMG/1.png)
